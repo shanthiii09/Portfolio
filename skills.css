@@ -1,0 +1,83 @@
+body{
+  background-color: black;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 15px;
+}
+.card-title{
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.linkedin{
+  color: black;
+  text-decoration: none;             
+}
+.github{
+  color: black;
+  text-decoration: none;
+}
+.gmail{
+  color: black;
+  text-decoration: none;
+}
+.contact{
+  color: black;
+  text-decoration: none;
+}
+main {
+  margin: 15px 12px;
+  margin-bottom: 75px;
+  min-width: 259px;
+}
+#bigbox
+{
+  border: 2px solid black;
+  height:1615px;
+  width: 70%;
+  background-color: white;
+  border-radius: 10px;
+  position: absolute;
+  margin-left: 28%;
+  margin-top: -478px;
+}
+.nav{
+  font-size: 20px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: gray;
+}
+p {
+  margin: 5px 0;
+}
+
+.headings{
+  margin-top:15px;
+  margin-left: 35px;
+  font-weight: bold;
+}
+.list{
+  margin-left: 30px;
+  font-size: 25px;
+}
+.progress{
+  width:300px;
+}
